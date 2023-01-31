@@ -33,16 +33,10 @@ void heapSort(Employee *A, int n)
 		Employee * empn= &A[n];
 		swap(emp0,empn);
 		//decrements the n value
-		n--;
 		//heapifies every other value besides the newly placed one.
-		for(int i =0;i<n;i++){
-			heapify(A,i,n);
-		}
+			heapify(A,0,n);
+		n--;
 	}
-	//just trust me on this bro
-	Employee *emp1= &A[1];
-		Employee * emp2= &A[2];
-	swap(emp1,emp2);
 }
 
 /**
