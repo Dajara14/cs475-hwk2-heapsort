@@ -4,3 +4,4 @@ void heapify(Employee *A, int i, int heapn);
 void swap(Employee *A, Employee *b);
 void printList(Employee *A, int n);
 void reverse( Employee *A, int start, int end);
+#define MAX_EMPLOYEES 5
